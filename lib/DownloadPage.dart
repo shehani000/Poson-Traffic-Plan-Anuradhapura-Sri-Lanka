@@ -37,7 +37,7 @@ class DownloadPage extends StatelessWidget {
           style: GoogleFonts.poppins(
             // Set font to Poppins
             textStyle: TextStyle(
-              color: Color(0xff2596be),
+              color: const Color(0xff2596be),
               fontWeight: FontWeight.bold,
               fontFamily: poppinsFontFamily,
             ),
@@ -158,14 +158,14 @@ class DownloadPage extends StatelessWidget {
                   ),
                 ),
               ),
-               const SizedBox(height: 16),
+              const SizedBox(height: 16),
               ElevatedButton(
                 onPressed: () {
-                    const url =
-                        'https://www.youtube.com/watch?v=Dn-9zltMmGo'; // Replace with the desired URL
-                    // ignore: deprecated_member_use
-                    launch(url);
-                  },
+                  const url =
+                      'https://www.youtube.com/watch?v=Dn-9zltMmGo'; // Replace with the desired URL
+                  // ignore: deprecated_member_use
+                  launch(url);
+                },
                 style: ElevatedButton.styleFrom(
                   padding: EdgeInsets.zero,
                   shape: RoundedRectangleBorder(
@@ -192,7 +192,7 @@ class DownloadPage extends StatelessWidget {
                     ),
                     alignment: Alignment.center,
                     child: Text(
-                      'Vedio Guide',
+                      'Video Guide',
                       style: GoogleFonts.poppins(
                         // Set font to Poppins
                         textStyle: TextStyle(
@@ -205,7 +205,6 @@ class DownloadPage extends StatelessWidget {
                   ),
                 ),
               ),
-
 
               const SizedBox(height: 100),
               // Added extra spacing for visibility
